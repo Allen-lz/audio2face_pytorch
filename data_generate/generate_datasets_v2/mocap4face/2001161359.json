@@ -1,0 +1,89 @@
+{
+    "settings": {
+        "is_face.base_model_path": "2001161359_bs_trans__ti_a8u2m2mh2f2__lrd150_augN01A05_brd03__par1222pyr5_ks753_dsS_dbCS1x1_sz16mul11236__split800_4106000_weights.130-0.39-model.h5"
+    },
+    "model_metadata": {
+        "input": {
+            "resolution": [
+                256,
+                256
+            ]
+        },
+        "outputs": {
+            "position": {
+                "resolution": [
+                    256,
+                    256
+                ]
+            },
+            "blendshapes": {
+                "names": [
+                    "browOutterUpLeft",
+                    "browInnerUp",
+                    "browDownLeft",
+                    "eyeBlinkLeft",
+                    "eyeSquintLeft",
+                    "eyeWideLeft",
+                    "eyeLookUpLeft",
+                    "eyeLookOutLeft",
+                    "eyeLookInLeft",
+                    "eyeLookDownLeft",
+                    "noseSneerLeft",
+                    "mouthUpperUpLeft",
+                    "mouthSmileLeft",
+                    "mouthLeft",
+                    "mouthFrownLeft",
+                    "mouthLowerDownLeft",
+                    "jawLeft",
+                    "cheekPuff",
+                    "mouthShrugUpper",
+                    "mouthFunnel",
+                    "mouthRollLower",
+                    "jawOpen",
+                    "tongueOut",
+                    "mouthPucker",
+                    "mouthRollUpper",
+                    "jawRight",
+                    "mouthLowerDownRight",
+                    "mouthFrownRight",
+                    "mouthRight",
+                    "mouthSmileRight",
+                    "mouthUpperUpRight",
+                    "noseSneerRight",
+                    "eyeLookDownRight",
+                    "eyeLookInRight",
+                    "eyeLookOutRight",
+                    "eyeLookUpRight",
+                    "eyeWideRight",
+                    "eyeSquintRight",
+                    "eyeBlinkRight",
+                    "browDownRight",
+                    "browInnerUp",
+                    "browOutterUpRight"
+                ],
+                "count": 42
+            },
+            "transforms": {
+                "elements": [
+                    "quat",
+                    "headCenter3",
+                    "scale1",
+                    "nose3",
+                    "rightEar3",
+                    "leftEar3",
+                    "euler3"
+                ],
+                "field_count": 20,
+                "scale_normalization": {
+                    "scale": 2,
+                    "offset": 0.600000023841858
+                },
+                "euler_rotation_ranges": [
+                    45,
+                    88,
+                    40
+                ]
+            }
+        }
+    }
+}
