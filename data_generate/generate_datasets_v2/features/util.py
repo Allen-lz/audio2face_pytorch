@@ -1,11 +1,5 @@
 # -*-coding:utf-8 -*-
 
-"""
-# File   : util.py
-# Time   : 2022/7/8 16:35
-# Author : Xu Jiajian
-# version: python 3.6
-"""
 
 import os
 import math

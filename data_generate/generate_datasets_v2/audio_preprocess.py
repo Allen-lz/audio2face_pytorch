@@ -1,11 +1,5 @@
 # -*-coding:utf-8 -*-
 
-"""
-File    : audio_preprocess.py
-Time    : 2022/06/20 10:58
-Author  : Xu Jiajian
-"""
-
 import os
 import sys
 import math

@@ -1,12 +1,6 @@
 # -*-coding:utf-8 -*-
 
 """
-# File   : features.py
-# Time   : 2022/7/8 16:33
-# Author : Xu Jiajian
-# version: python 3.6
-
-
 音频处理的可以看看这个博客: https://www.cnblogs.com/LXP-Never/p/11561355.html
 天池零基础入门音频的教程: https://pythontechworld.com/article/detail/BCcNjuLDVYa6
 分帧函数: https://blog.csdn.net/qq_37653144/article/details/89045363

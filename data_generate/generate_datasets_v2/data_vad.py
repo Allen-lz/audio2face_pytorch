@@ -1,11 +1,5 @@
 # -*-coding:utf-8 -*-
 
-"""
-File    : data_vad.py
-Time    : 2022/06/17 19:18
-Author  : Xu Jiajian
-"""
-
 import os
 import math
 import json
