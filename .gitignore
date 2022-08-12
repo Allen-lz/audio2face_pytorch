@@ -3,3 +3,4 @@ experiment/logs/*
 Av629249051-P1.mp4_audio.npy
 Av629249051-P1.mp4_bs_targets.npy
 assets/*
+.idea
