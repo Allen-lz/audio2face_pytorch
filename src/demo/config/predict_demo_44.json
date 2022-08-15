@@ -1,0 +1,6 @@
+{
+  "wav_path": [
+    [true, "E:/3D_face_reconstruct/audio2face/data/test_demo/C1OF01_C1OF01_01_08.wav"],
+    [true, "E:/3D_face_reconstruct/audio2face_pytorch/assets/tmp.wav"]
+  ]
+}

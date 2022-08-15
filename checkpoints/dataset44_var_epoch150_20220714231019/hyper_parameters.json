@@ -1,0 +1,15 @@
+{
+    "epoch": 150,
+    "batch_size": 256,
+    "dropout_rate": 0.3,
+    "starter_learning_rate": 0.0003,
+    "conv_type": "zc_micro",
+    "grl_gamma": 15,
+    "l2_reg_weight": 0.0005,
+    "dataset_id": "dataset44",
+    "input_dim1": 32,
+    "input_dim2": 13,
+    "input_dim3": 1,
+    "bs_label_dim": 16,
+    "classifier_dim": 106
+}

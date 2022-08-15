@@ -1,6 +1,49 @@
-experiment/checkpoints/*
-experiment/logs/*
-Av629249051-P1.mp4_audio.npy
-Av629249051-P1.mp4_bs_targets.npy
-assets/*
-.idea
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+.idea/
+
+# celery beat schedule file
+celerybeat-schedule
+workspace.xml
+
+# SageMath parsed files
+*.sage.py
+.idea/workspace.xml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
