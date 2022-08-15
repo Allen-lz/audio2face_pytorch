@@ -1,32 +1,51 @@
-## 数据制作
+# audio2face
+## 一、依赖
+
+- requirements.txt
+
 ```
-cd data_generate/generate_datasets_v2
-```
-#### step1
-```
-python chinese_public_dataset_preprocess.py
-```
-#### step2
-```
-python data_vad.py
-```
-#### step3
-```
-python audio_preprocess.py
+tqdm
+glob2
+keyboard
+numpy
+pandas
+scipy
+matplotlib
+librosa==0.9.1
+mediapipe==0.8.9.1
+moviepy==1.0.3
+paddleocr==2.5.0.3
+PyAudio==0.2.11
+sk_video==1.1.10
+SoundFile==0.10.3.post1
+tensorflow==2.6.0
+webrtcvad==2.0.10
 ```
 
+- 安装依赖
 
-#### 注意
-```
-1. 更换脚本中的文件路径
-2. 最后的gt被存放在clean_gt_base中
-3. 处理后的音频数据放在processed_datasets中
+```shell
+pip install -r requirements.txt
 ```
 
+**若无法安装 `webrtcvad` ，可以尝试使用 `pip install webrtcvad-wheels` 命令单独安装 `webrtcvad` 库**
 
 
-## 训练
+
+## 二、运行
+
+### 1. 演示demo运行
+
+- 运行录音demo
+
+```shell
+cd src/demo
+python run_demo.py --only_bs_data
 ```
-先在configs/config_v1.py中进行训练的配置
-python train/coach_v1.py
+
+- 运行实时demo
+
+```shell
+cd src/demo
+python run_demo.py --real_time
 ```
